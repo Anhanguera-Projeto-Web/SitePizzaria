@@ -149,18 +149,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* line 94,  */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #000;
-  font-family: "Poppins", sans-serif;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
+
 
 /* line 105,  */
 p {
@@ -168,7 +157,6 @@ p {
   line-height: 2;
   font-size: 15px;
   margin-bottom: 0px;
-  color: #000;
   font-weight: 300;
 }
 
@@ -255,7 +243,7 @@ button:focus,
 /* line 174,  */
 .section_tittle h2 {
   font-size: 36px;
-  color: #1a1a1a;
+  
   line-height: 27px;
   font-weight: 700;
   position: relative;
@@ -5580,14 +5568,7 @@ ul {
   font-size: 24px;
 }
 
-/* line 85,  */
-b,
-sup,
-sub,
-u,
-del {
-  color: #ff3368;
-}
+
 
 /* line 93,  */
 h1 {
