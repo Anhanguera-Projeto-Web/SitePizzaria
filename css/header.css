@@ -1,22 +1,36 @@
+@media only screen and (min-width:1366px) and (max-width:1920px){
+    .brian{
+    font-size: 20px;
+    font-stretch: ultra-expanded;
+    
+    margin: 0 auto;
+    position: absolute;
+    left: 100px;
+    right: 400px;
+    display: inline-block;
+    
+        
+}
+    .pesquisa{
+     position: absolute;
+    margin: 0 auto;
+    position: absolute;
+    left: 999px;
+    right: 10px;
+    display: inline-block;
+}
+}
+
 .brian{
     font-size: 20px;
     font-stretch: ultra-expanded;
     
     margin: 0 auto;
     
-    left: 0;
-    right: 300px;
     display: inline-block;
     
 }
-.pesquisa{
-     position: absolute;
-    margin: 0 auto;
-    position: absolute;
-    left: 1009px;
-    right: 0;
-    display: inline-block;
-}
+
 *,{
     box-sizing: border-box;
 }
