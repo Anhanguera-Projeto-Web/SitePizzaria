@@ -1,0 +1,121 @@
+@media only screen and (min-width:1366px) and (max-width:1920px){
+    .brian{
+    font-size: 20px;
+    font-stretch: ultra-expanded;
+    
+    margin: 0 auto;
+    position: absolute;
+    left: 100px;
+    right: 400px;
+    display: inline-block;
+    
+        
+}
+    .pesquisa{
+     position: absolute;
+    margin: 0 auto;
+    position: absolute;
+    left: 999px;
+    right: 10px;
+    display: inline-block;
+}
+}
+
+.brian{
+    font-size: 20px;
+    font-stretch: ultra-expanded;
+    
+    margin: 0 auto;
+    
+    display: inline-block;
+    
+}
+
+*,{
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 991px) and (max-width:1211px){
+  .pesquisa{
+     position: absolute;
+    margin: 0 auto;
+    position: absolute;
+    left: 800px;
+    right: 0;
+    display: inline-block;
+    }  
+    
+    .logobrian{
+    max-width: 100px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0px;
+    right: 900px;
+    display: inline-block;
+    top: 3px;}
+    
+}
+  
+@media only screen and (min-width: 1004px) and (max-width:1237px){
+    .pesquisa{
+     position: absolute;
+    margin: 0 auto;
+    position: absolute;
+    left: 845px;
+    right: 0;
+    display: inline-block;
+    
+    
+    }   
+    
+    
+}
+
+@media only screen and (min-width: 996px) and (max-width:1095px){
+    .pesquisa{
+     position: absolute;
+    margin: 0 auto;
+    position: absolute;
+    left: 645px;
+    right: 0;
+    display: inline-block;
+    
+    
+    }   
+    
+}
+
+
+@media only screen and (min-width: 992px) and (max-width:1088px){
+    .pesquisa{
+     position: absolute;
+    margin: 0 auto;
+    position: absolute;
+    left: 800px;
+    right: 0;
+    display: inline-block;
+    
+    
+    
+    }   
+    
+}
+
+
+@media only screen and (max-width:991px){
+    .logobrian{
+    max-width: 100px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    top: 0;}
+    
+  
+    
+    .menutresponto{
+        
+        
+    }
+        
+}
