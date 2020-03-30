@@ -1,0 +1,25 @@
+body {
+	
+	width: 70%;
+	margin: 0 auto;
+	font-size: 15px;
+	font-family: "Poppins", sans-serif;
+	color: #828282;
+	text-align: justify;
+}
+
+h2 {
+	color:#AD2318;
+	font-size: 28px;
+	padding-top:75px;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: bolder;
+	color:#000000;
+}
+
+a {
+	color:#AD2318;
+}
