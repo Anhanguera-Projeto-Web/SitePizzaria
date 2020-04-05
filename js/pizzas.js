@@ -1,10 +1,10 @@
 let pizzaJson = [
-    {id:1, name:'Mussarela', img:'images/Menu/pizza.png', price:20.19, sizes:['100g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'},
-    {id:2, name:'Calabresa', img:'images/Menu/pizza2.png', price:18.00, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'},
-    {id:3, name:'Quatro Queijos', img:'images/Menu/pizza3.png', price:17.45, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'},
-    {id:4, name:'Americana', img:'images/Menu/pizza4.png', price:19.77, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'},
-    {id:5, name:'Sorvete', img:'images/Menu/pizza5.png', price:21.43, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'},
-    {id:6, name:'Moda da Casa', img:'images/Menu/pizza6.png', price:18.55, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'},
-    {id:7, name:'Chocolate', img:'images/Menu/pizza7.png', price:22.36, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'}
+    {id:1, name:'Mussarela', img:'images/Menu/pizza.png', price:20.19, sizes:['100g', '530g', '860g'], description:'Pizza de Mussarela composto por tomates fresquinhos, queijo coalho, azeitonas e muita mussarela!'},
+    {id:2, name:'Calabresa', img:'images/Menu/pizza2.png', price:18.00, sizes:['320g', '530g', '860g'], description:'Pizza de calabresa composto por um molho de tomate caseiro, queijo, pedacinhos de rúcula e calabresa... Huum !!!'},
+    {id:3, name:'Quatro Queijos', img:'images/Menu/pizza3.png', price:17.45, sizes:['320g', '530g', '860g'], description:'Pizza de 4queijos especialmente desenvolvida para os amantes do queijo! Contém azeitona, pimentão, e diversos queijos!!!'},
+    {id:4, name:'Americana', img:'images/Menu/pizza4.png', price:19.77, sizes:['320g', '530g', '860g'], description:'Pizza americana aqui na nossa pizzaria tem ingredientes selecionados , como brócolis, tomate, etc. Ainda temos um delicioso sabor base de queijo !'},
+    {id:5, name:'Portuguesa', img:'images/Menu/pizza5.png', price:21.43, sizes:['320g', '530g', '860g'], description:'Pizza portuguesa aqui é extremamente saborosa, o milho da um grande diferencial no sabor juntamente com o pimentão e o molho de tomate. Prestigie!'},
+    {id:6, name:'Moda da Casa', img:'images/Menu/pizza6.png', price:18.55, sizes:['320g', '530g', '860g'], description:'Pizza moda da casa é o nosso favoritinho!! Um sabor desenvolvido para amantes de pizza que não vão deixar de provar, e o melhor: A borda é recheada !!!'},
+    {id:7, name:'Chocolate', img:'images/Menu/pizza7.png', price:22.36, sizes:['320g', '530g', '860g'], description:'Pizza de chocolate nos deixam suspirando!!! Nossa massa doce deliciosa, e a nossa camada extra de chocolate juntamente com confetes deixa nosso sabor muuito exuberante, que tal ?'}
 
 ];
