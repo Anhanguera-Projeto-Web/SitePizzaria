@@ -1,0 +1,10 @@
+let pizzaJson = [
+    {id:1, name:'Mussarela', img:'images/Menu/pizza.png', price:20.19, sizes:['100g', '530g', '860g'], description:'Pizza de Mussarela composto por tomates fresquinhos, queijo coalho, azeitonas e muita mussarela!'},
+    {id:2, name:'Calabresa', img:'images/Menu/pizza2.png', price:18.00, sizes:['320g', '530g', '860g'], description:'Pizza de calabresa composto por um molho de tomate caseiro, queijo, pedacinhos de rúcula e calabresa... Huum !!!'},
+    {id:3, name:'Quatro Queijos', img:'images/Menu/pizza3.png', price:17.45, sizes:['320g', '530g', '860g'], description:'Pizza desenvolvida especialmente para os amantes do queijo! Contém azeitona, pimentão, e principalmente, diversos tipos de queijos!'},
+    {id:4, name:'Americana', img:'images/Menu/pizza4.png', price:19.77, sizes:['320g', '530g', '860g'], description:'Nossa Pizza Americana tem ingredientes selecionados , como brócolis, tomate e azeitonas. Ainda com um delicioso sabor a base de queijo, quem deixa de experimentar?'},
+    {id:5, name:'Portuguesa', img:'images/Menu/pizza5.png', price:21.43, sizes:['320g', '530g', '860g'], description:'Nossa Pizza Portuguesa é extremamente saborosa, o milho da um grande diferencial no sabor juntamente com o pimentão e o molho de tomate. Prestigie!'},
+    {id:6, name:'Moda da Casa', img:'images/Menu/pizza6.png', price:18.55, sizes:['320g', '530g', '860g'], description:'Pizza moda da casa é o nosso favorito! Um sabor desenvolvido para amantes de pizza que não vão deixar de provar, e o melhor: A borda recheada!'},
+    {id:7, name:'Chocolate', img:'images/Menu/pizza7.png', price:22.36, sizes:['320g', '530g', '860g'], description:'Pizza de chocolate nos deixa suspirando! Nossa massa doce deliciosa juntamente com uma camada extra de chocolate e uma combinação de confete deixa nosso sabor muuuito exuberante. Que tal?'}
+
+];
