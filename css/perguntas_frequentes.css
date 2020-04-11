@@ -1,0 +1,32 @@
+body {
+
+	width: 70%;
+	margin: 0 auto;
+	font-family: "Poppins", sans-serif;
+}
+
+h1 {
+	
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	color:#ffffff;
+	background-color:#3d668f; 
+	padding: 25px;
+	border-radius: 5px;
+}
+
+
+h3 {
+
+	font-size: 20px;
+}
+
+p {
+	background-color: #DCDCDC;
+	border-radius: 2px;
+	font-size: 17px;
+	padding: 20px;
+	text-align: left;
+}
+
