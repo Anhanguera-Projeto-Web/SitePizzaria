@@ -1,11 +1,17 @@
-body {
+politica {
 	
-	width: 70%;
-	margin: 0 auto;
-	font-size: 15px;
+    
+    margin-left: 40px;
+    display: flex;flex-direction: column;	
 	font-family: "Poppins", sans-serif;
-	color: #828282;
-	text-align: justify;
+    
+}
+bordacss{
+    border-width: 200px;
+    border-width: medium;
+    border-style: solid;
+    border-color: #00f;
+    
 }
 
 h2 {
