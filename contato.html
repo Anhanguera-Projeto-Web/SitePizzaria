@@ -22,8 +22,8 @@
    <div class="header-custom"> </div>
    <script>$(".header-custom").load("header.html"); </script> 
    <br><br><br>
-   
-   <form class="needs-validation contato" novalidate>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <form class="needs-validation contato" novalidate action="#" method="get">
   <div class="form-row">
   <brian class="col-md-4 mb-3">
    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Intuito</label>
@@ -58,7 +58,14 @@
     </div>
   </div>
   <div class="form-row">
-    <div class="col-md-6 mb-3">
+   <div class="col-md-3 mb-3">
+      <label for="validationCustom05">CEP</label>
+      <input type="text" onkeypress="return event.charCode >= 48 && event.charCode <= 57" class="form-control" id="validationCustom05" placeholder="CEP" required maxlength="8" type="number" required>
+      <div class="invalid-feedback">
+        Por favor, informe um CEP válido.
+      </div>
+    </div>
+    <div class="col-md-2 mb-3">
       <label for="validationCustom03">Cidade</label>
       <input type="text" class="form-control" id="validationCustom03" placeholder="Cidade" required>
       <div class="invalid-feedback">
@@ -72,13 +79,7 @@
         Por favor, informe um estado válido.
       </div>
     </div>
-    <div class="col-md-3 mb-3">
-      <label for="validationCustom05">CEP</label>
-      <input type="text" class="form-control" id="validationCustom05" placeholder="CEP" required>
-      <div class="invalid-feedback">
-        Por favor, informe um CEP válido.
-      </div>
-    </div>
+    
   </div>
   
   
@@ -92,7 +93,7 @@
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
       <label class="form-check-label" for="invalidCheck">
-        Concordo com os termos e condições
+        Confirmo todos os dados prenchidos
       </label>
       <div class="invalid-feedback">
         Você deve concordar, antes de continuar.
@@ -101,6 +102,29 @@
   </div>
   <button class="btn btn-primary" type="submit">Enviar</button>
 </form>
+
+
+ <!--função para retonar info do cep -->
+             <script type="text/javascript">
+		      $("#validationCustom05").focusout(function(){
+			//Início do Comando AJAX
+			$.ajax({
+
+				url: 'https://viacep.com.br/ws/'+$(this).val()+'/json/unicode/',
+
+				dataType: 'json',
+
+				success: function(resposta){
+                    $("#validationCustom03").val(resposta.localidade);
+                    $("#validationCustom04").val(resposta.uf);
+				}    
+                });
+		      });
+	       </script>
+	       <!--brian testando -->
+	       
+	       
+	       
 
 <script>
 // Exemplo de JavaScript inicial para desativar envios de formulário, se houver campos inválidos.
@@ -123,7 +147,6 @@
 })();
 </script>
      
-
 
 <script src="js/jquery-1.12.1.min.js"></script>
 <script src="js/jquery.magnific-popup.js"></script>
