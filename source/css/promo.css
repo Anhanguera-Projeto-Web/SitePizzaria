@@ -1,0 +1,126 @@
+h1 {
+	
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	color:#ffffff;
+	background-color:#3d668f; 
+	padding: 25px;
+	border-radius: 5px;
+}
+body{
+    font-family: Arial, Helvetica,sans-serif;
+    display: flex;justify-content: center;
+    margin: 40px;
+    display: flex;flex-direction: column;	
+	font-family: "Poppins", sans-serif;
+
+}
+promo {
+
+	width: 70%;
+	margin: 0 auto;
+	font-family: "Poppins", sans-serif;
+}
+
+.col-md-9 {
+
+	background-repeat: no-repeat;
+	border-style: solid;
+	border-radius: 2px;
+	border-width: 1px;
+	height: 275px;
+
+	
+}
+
+.col-md-3 {
+
+	
+	border-style: solid;
+	border-radius: 2px;
+	border-width: 1px;
+
+}
+
+.botao {
+
+	margin:30%;
+	margin-bottom: 50px;
+} 
+
+p {
+
+	background-color: rgba(255, 255, 255, 60); 
+	font-size: 19px;
+	text-align: center;
+	box-shadow: 5px 5px 5px rgba(1,1,1,1.8);
+	margin-top: 40px;
+	opacity: 0.8;
+
+}
+
+.aviso {
+
+	font-size: 20px;
+	font-color:black;
+}
+
+.dado1 {
+
+	background-image:url('/images/promo/calabresa.png');
+
+}
+
+.dado2 {
+	
+	background-image:url('/images/promo/chocolate.png');
+
+}
+
+.dado3 {
+	
+	background-image:url('/images/promo/refrigerante.png');
+
+}
+
+.dado4 {
+	
+	background-image:url('/images/promo/trespizzas.png');
+
+}
+
+.dado5 {
+	
+	background-image:url('/images/promo/adicional.png');
+
+}
+
+.dado6 {
+	
+	background-image:url('/images/promo/desconto.png');
+
+}
+
+.dado7 {
+	
+	background-image:url('/images/promo/borda.png');
+
+}
+
+h4 {
+
+	padding: 25px;
+	text-align: center;
+	color:#3d668f;
+	font-weight: bold;
+}
+
+h2 {
+	padding: 6px;
+	color:#3d668f;
+	font-weight: bold;
+}
+.text-light{
+    background-color: cadetblue;
+}

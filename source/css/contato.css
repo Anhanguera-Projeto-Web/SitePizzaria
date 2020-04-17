@@ -1,0 +1,8 @@
+.contato{
+    font-family: Arial, Helvetica,sans-serif;
+    display: flex;justify-content: center;
+    margin: 40px;
+    display: flex;flex-direction: column;
+    padding: 10px;margin-bottom: 15px;
+    border: 1px; border-radius: 5px;
+}

@@ -9,17 +9,20 @@
     <meta name="copyright" content="Todos os direitos reservados Pizzaria com Agência de Restaurantes Online. CNPJ 12.345.678 / 9012-34 / Avenida Visconde de Itauna, Niterói / RJ." />
     <title>Pizzaria</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <link rel="shortcut icon" type="image/png" href="images/logo2.png"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css" > 
     
-<script src="js/jquery.js"></script> <!-- necessario para o footer e header -->
+<!--Chamando a logo, CSS e JS -->	
+	<link rel="shortcut icon" type="image/png" href="source/images/logo/logo.png"/>
+	
+    <link rel="stylesheet" href="source/css/bootstrap.min.css" >  
+	
+	<script src="source/js/jquery.js"></script> 
 <!--script brian -->
 
 </head>
   <body>
 
    <div class="header-custom"> </div>
-   <script>$(".header-custom").load("header.html"); </script> 
+   <script>$(".header-custom").load("navbar/header.html"); </script> 
    
    
    
@@ -33,13 +36,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100"  src="images/carousel/carousel1.jpg" height="500px" alt="First slide">
+      <img class="d-block w-100"  src="source/images/carousel/carousel1.jpg" height="500px" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/carousel/carousel2.jpg" height="500px" alt="Second slide">
+      <img class="d-block w-100" src="source/images/carousel/carousel2.jpg" height="500px" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/carousel/carousel3.jpg" height="500px" alt="Third slide">
+      <img class="d-block w-100" src="source/images/carousel/carousel3.jpg" height="500px" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -52,29 +55,19 @@
   </a>
 </div>
 
-
-<script src="js/jquery-1.12.1.min.js"></script>
-<script src="js/jquery.magnific-popup.js"></script>
-<script src="js/swiper.min.js"></script>
-<script src="js/owl.carousel.min.js"></script> 
-<script src="js/slick.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script> 
-<script src="js/jquery.validate.min.js"></script> 
-<script src="js/custom.js"></script>
-
 <!-- brian fazendo o slide mudar automaticamente -->
 <script>
     $('.carousel').carousel({
-  interval: 2000
+  interval: 3000
 })  
       
 </script>
    
-  <iframe src="menu.html" name="content" width="100%" style="height: 100vh;"> </iframe>
+  <iframe src="navbar/Promocao/menu.html" name="content" width="100%" style="height: 100vh;"> </iframe>
 
 <!-- Footer da pagina -->
 <div class="footer-custom"> </div>
-   <script>$(".footer-custom").load("footer.html"); </script> 
+   <script>$(".footer-custom").load("footer/footer.html"); </script> 
    
    <!--
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
