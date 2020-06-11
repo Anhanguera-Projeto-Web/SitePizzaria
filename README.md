@@ -27,7 +27,7 @@ Usamos estas dependências para desenvolver o software.
 
 ## Migrações
 
-Devemos também executar as configurações no arquivo '/.env'. Devemos informar as conexões do nosso Banco de Dados.
+Devemos também executar as configurações no arquivo `/.env`. Devemos informar as conexões do nosso Banco de Dados.
 No caso, utilizamos o MySQL em uma máquina local.
 
 Com o Composer, utilize o `php artisan migrate` para gerar as tabelas no Banco de Dados e começar a utilizar o sistema.
