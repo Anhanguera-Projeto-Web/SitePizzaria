@@ -1,6 +1,0 @@
-ErrorDocument 400 http://projetopizza.online/ERRO/400.html
-ErrorDocument 401 http://projetopizza.online/ERRO/401.html
-ErrorDocument 403 http://projetopizza.online/ERRO/403.html
-ErrorDocument 404 http://projetopizza.online/ERRO/404.html
-ErrorDocument 503 http://projetopizza.online/ERRO/503.html
-Options All -Indexes

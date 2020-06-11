@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+footer {
+    position: relative;
+    bottom: 0px;
+    width:100%;
+}
+
+/* Tamanho do Botões no Carousel*/
+.indicator-item{
+    padding: 8px;
+}
+
+main{
+    background: url(/storage/src/images/wp/wood.jpg) no-repeat center center fixed;
+}
+
+h2, h4{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
+    font-family: 'Roboto Mono', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.brand-logo img {
+    height: 80px;
+    margin-top: -7px;
+}
+
+.card-title{
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+#price-bitcoin{
+    font-style: italic;
+}
