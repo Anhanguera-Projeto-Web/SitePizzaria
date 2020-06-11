@@ -28,4 +28,5 @@ Usamos estas dependências para desenvolver o software.
 
 ## License
 
-A CryptoPizza e o framework Laravel framework são de código-aberto licensiados pelo MIT License.[MIT license](https://opensource.org/licenses/MIT).
+A CryptoPizza e o framework Laravel framework são de código-aberto licensiados pelo [MIT license](https://opensource.org/licenses/MIT).
+
