@@ -25,8 +25,14 @@ Usamos estas dependências para desenvolver o software.
 - [Carrinho de Compras](https://github.com/geekcom/validator-docs)
 - [BitPay](https://github.com/vrajroham/laravel-bitpay)
 
+## Migrações
+
+Devemos também executar as configurações no arquivo '/.env'. Devemos informar as conexões do nosso Banco de Dados.
+No caso, utilizamos o MySQL em uma máquina local.
+
+Com o Composer, utilize o `php artisan migrate` para gerar as tabelas no Banco de Dados e começar a utilizar o sistema.
+
 
 ## License
 
 A CryptoPizza e o framework Laravel framework são de código-aberto licensiados pelo [MIT license](https://opensource.org/licenses/MIT).
-
