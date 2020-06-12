@@ -32,8 +32,10 @@ No caso, utilizamos o MySQL em uma máquina local.
 
 Com o Composer, utilize o `php artisan migrate` para gerar as tabelas no Banco de Dados e começar a utilizar o sistema.
 
-Banco de Dados: `pizza`
-Usuário do Banco: `root`
+Banco de Dados: `pizza` 
+
+Usuário do Banco: `root` 
+
 Senha do Banco: `gm4Ag9XKN4K7CCqN8xcrNDcebNL4`
 
 
