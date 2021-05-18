@@ -1,1 +1,0 @@
-@extends('arearestrita.admin.layouts')
